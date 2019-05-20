@@ -28,4 +28,5 @@ app.use((err, req, res, next) => {
 })
 
 const PORT = process.env.PORT
+console.log('PORT : ', PORT)
 app.listen(PORT, () => console.info(`Server has started on ${PORT}`))
